@@ -3,7 +3,7 @@ const greet = (msg, fun)=>{
 	console.log("Hi.. "+msg)
 	fun()
 }
-greet("Good Morning", ()=>{console.log("My name is Yeheni")})
+greet("Good Morning", ()=>{console.log("My name is Pavani")})
 
 
 const multtwo = (n)=>n*2
