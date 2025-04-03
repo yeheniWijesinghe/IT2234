@@ -1,6 +1,6 @@
 | Codes | Output |
 |-------|--------|
-|['question-01.js'](./Codes/question-01.js)|![01.png](./Output/01.png)|
-|['question-02.js'](./Codes/question-02.js)|![02.png](./Output/02.png)|
-|['question-03.js'](./Codes/question-03.js)|![03.png](./Output/03.png)|
-|['question-04.js'](./Codes/question-04.js)|![04.png](./Output/04.png)|
+|['question-01.js'](./Code/question-01.js)|![1.png](./Output/1.png)|
+|['question-02.js'](./Code/question-02.js)|![2.png](./Output/2.png)|
+|['question-03.js'](./Code/question-03.js)|![3.png](./Output/3.png)|
+|['question-04.js'](./Code/question-04.js)|![4.png](./Output/4.png)|
