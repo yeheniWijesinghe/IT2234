@@ -1,1 +1,0 @@
-🍃 MongoDB Hands-On
