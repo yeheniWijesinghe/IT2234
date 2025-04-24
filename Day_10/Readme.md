@@ -36,11 +36,33 @@ Inserted Document
 
 Edit -> Make changes -> Update
 
-!['6.update.png'](./Images/6.update.png)
+!['5.update.png'](./Images/5.update.png)
 
 ## ✍️ Insert Documents Using MongoDb Shell
 
+Change database and display available databases and collections.
 
+!['6.png'](./Images/6.png)
+
+Enter one document - insertOne()
+
+~~~
+  db.students.insertOne({
+  "regno": "2021IT006",
+  "name": "Nova",
+  "age": 24,
+  "gender": "Male",
+  "degree": "IT",
+  "gpa": 3.7,
+  "skills": [
+    "JS",
+    "MongoDb",
+    "Nodejs"
+  ]
+})
+~~~
+
+!['7.insertOne.png'](./Images/7.insertOne.png)
 
 
 
