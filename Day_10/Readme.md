@@ -24,7 +24,7 @@ Insert Document -> insert keys and values.
 
 Use format button to make the document permitted.
 
-!['3.format.png'](./Images/3.format.png)
+!['4.format.png'](./Images/4.format.png)
 
 
 
