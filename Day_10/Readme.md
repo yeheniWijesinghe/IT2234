@@ -2,7 +2,7 @@
 
 📦 DB Creation | 📁 Collections | 🛠️ CRUD | 🔍 Queries
 
-Key Terms.
+## Key Terms.
 
   Database → Holds collections
 
@@ -12,7 +12,7 @@ Key Terms.
 
   🄚 _id →  Auto-generated, unique identifier
 
-🏗️ Create a Database & Collection
+## 🏗️ Create a Database & Collection
 
 !['1.createDB.png'](./Images/1.createDB.png)
 
