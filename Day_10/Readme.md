@@ -8,7 +8,7 @@ Key Terms.
 
   Collection → Like a table (stores documents)
 
-  Document → JSON-style object
+  Document → BSON-style object
 
   🄚 _id →  Auto-generated, unique identifier
 
