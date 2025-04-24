@@ -24,11 +24,11 @@ Insert Document -> insert keys and values.
 
 !['2.insert.png'](./Images/2.insert.png)
 
-. Use format button to make the document permitted.
+>> Use format button to make the document permitted.
 
 !['4.format.png'](./Images/4.format.png)
 
-. Inserted Document
+>> Inserted Document
 
 !['5.png'](./Images/5.png)
 
@@ -40,11 +40,11 @@ Edit -> Make changes -> Update
 
 ## ✍️ Insert Documents Using MongoDB Shell
 
-. Change database and display available databases and collections.
+>> Change database and display available databases and collections.
 
 !['6.shellCommands.png'](./Images/6.shellCommands.png)
 
-. Enter one document - insertOne()
+>> Enter one document - insertOne()
 
 ~~~
   db.students.insertOne({
@@ -63,11 +63,11 @@ Edit -> Make changes -> Update
 
 !['7.insertOne.png'](./Images/7.insertOne.png)
 
-. Inserted Documents.
+>> Inserted Documents.
 
 !['8.png'](./Images/9.png)
 
-. Enter multiple documents - insertMany()
+>> Enter multiple documents - insertMany()
 
 ~~~
   db.students.insertMany(
@@ -101,7 +101,7 @@ Edit -> Make changes -> Update
 
 ~~~
 
-. Shell response.
+>> Shell response.
 ~~~
   {
   acknowledged: true,
@@ -112,7 +112,7 @@ Edit -> Make changes -> Update
 }
 ~~~
 
-. Inserted Documents.
+>> Inserted Documents.
 
 !['9.png'](./Images/9.png)
 
