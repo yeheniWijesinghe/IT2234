@@ -4,13 +4,13 @@
 
 ## Key Terms.
 
-    Database → Holds collections
+Database → Holds collections
 
-    Collection → Like a table (stores documents)
+Collection → Like a table (stores documents)
 
-    Document → BSON-style object
+Document → BSON-style object
 
-    🄚 _id →  Auto-generated, unique identifier
+🄚 _id →  Auto-generated, unique identifier
 
 ## 🏗️ Create a Database & Collection
 
