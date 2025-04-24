@@ -53,7 +53,6 @@ Enter one document - insertOne()
   "age": 24,
   "gender": "Male",
   "degree": "IT",
-  "gpa": 3.7,
   "skills": [
     "JS",
     "MongoDb",
@@ -79,7 +78,6 @@ Enter multiple documents - insertMany()
   "age": 25,
   "gender": "Male",
   "degree": "IT",
-  "gpa": 3.6,
   "skills": [
     "JS",
     "MongoDb",
@@ -92,7 +90,6 @@ Enter multiple documents - insertMany()
   "age": 24,
   "gender": "Female",
   "degree": "IT",
-  "gpa": 3.6,
   "skills": [
     "JS",
     "MongoDb",
