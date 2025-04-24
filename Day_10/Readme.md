@@ -42,7 +42,7 @@ Edit -> Make changes -> Update
 
 Change database and display available databases and collections.
 
-!['6.png'](./Images/6.png)
+!['6.shellCommands.png'](./Images/6.shellCommands.png)
 
 Enter one document - insertOne()
 
