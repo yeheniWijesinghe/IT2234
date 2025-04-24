@@ -15,6 +15,7 @@ Document → BSON-style object
 ## 🏗️ Create a Database & Collection
 
 - Using Compass
+  
   Create Database -> Database Name -> Collection Name -> Create Database
 
 !['1.createDB.png'](./Images/1.createDB.png)
