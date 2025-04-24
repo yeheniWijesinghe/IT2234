@@ -12,7 +12,7 @@ Document → BSON-style object
 
 🄚 _id →  Auto-generated, unique identifier
 
-## 🏗️ Create a Database & Collection
+## 🏗️ Create a Database & Collection Using Compass
 
 Create Database -> Database Name -> Collection Name -> Create Database
 
@@ -25,6 +25,12 @@ Insert Document -> insert keys and values.
 Use format button to make the document permitted.
 
 !['4.format.png'](./Images/4.format.png)
+
+Inserted Document
+
+!['5.png'](./Images/5.png)
+
+
 
 
 
