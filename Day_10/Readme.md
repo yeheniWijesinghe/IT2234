@@ -1,9 +1,9 @@
 ## 🍃 MongoDB Hands-On
 
 📦 DB Creation | 📁 Collections | 🛠️ CRUD | 🔍 Queries
-~~~
 
 ## Key Terms.
+~~~
 
   Database → Holds collections
 
