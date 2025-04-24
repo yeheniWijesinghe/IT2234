@@ -38,7 +38,7 @@ Edit -> Make changes -> Update
 
 !['5.update.png'](./Images/5.update.png)
 
-## ✍️ Insert Documents Using MongoDb Shell
+## ✍️ Insert Documents Using MongoDB Shell
 
 Change database and display available databases and collections.
 
@@ -63,6 +63,62 @@ Enter one document - insertOne()
 ~~~
 
 !['7.insertOne.png'](./Images/7.insertOne.png)
+
+Inserted Document
+
+!['8.png'](./Images/9.png)
+
+Enter multiple documents - insertMany()
+
+~~~
+  db.students.insertMany(
+[
+{
+  "regno": "2021IT007",
+  "name": "Kevin",
+  "age": 25,
+  "gender": "Male",
+  "degree": "IT",
+  "gpa": 3.6,
+  "skills": [
+    "JS",
+    "MongoDb",
+    "MySQL"
+  ]
+},
+{
+  "regno": "2021IT008",
+  "name": "Kate",
+  "age": 24,
+  "gender": "Female",
+  "degree": "IT",
+  "gpa": 3.6,
+  "skills": [
+    "JS",
+    "MongoDb",
+    "Nodejs"
+  ]
+}
+]
+)
+
+~~~
+
+Shell response
+~~~
+  {
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId('680a513770bc7e6dddbd41d4'),
+    '1': ObjectId('680a513770bc7e6dddbd41d5')
+  }
+}
+~~~
+
+Inserted Document
+
+!['9.png'](./Images/9.png)
+
 
 
 
