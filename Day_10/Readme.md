@@ -1,9 +1,9 @@
 ## 🍃 MongoDB Hands-On
 
 📦 DB Creation | 📁 Collections | 🛠️ CRUD | 🔍 Queries
+~~~
 
 ## Key Terms.
-
 
   Database → Holds collections
 
@@ -13,7 +13,6 @@
 
   🄚 _id →  Auto-generated, unique identifier
   
-
 ## 🏗️ Create a Database & Collection
 
 
