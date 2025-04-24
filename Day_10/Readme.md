@@ -17,4 +17,7 @@ Key Terms.
 
 
 🏗️ Create a Database & Collection
+
+
 !['1.createDB.png'](./Images/1.createDB.png)
+
