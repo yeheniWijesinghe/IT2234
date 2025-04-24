@@ -32,6 +32,12 @@ Inserted Document
 
 !['5.png'](./Images/5.png)
 
+## ✍️ Edit Documents Using Compass
+
+Edit -> Make changes -> Update
+
+!['6.update.png'](./Images/6.update.png)
+
 ## ✍️ Insert Documents Using MongoDb Shell
 
 
