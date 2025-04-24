@@ -1,6 +1,6 @@
 ## 🍃 MongoDB Hands-On
 
-📦 DB Creation . 📁 Collections . 🛠️ CRUD . 🔍 Queries
+📦 DB Creation | 📁 Collections | 🛠️ CRUD | 🔍 Queries
 
 ## Key Terms.
 
@@ -14,6 +14,8 @@ Document → BSON-style object
 
 ## 🏗️ Create a Database & Collection
 
+- Using Compass
+  Create Database -> Database Name -> Collection Name -> Create Database
 
 !['1.createDB.png'](./Images/1.createDB.png)
 
