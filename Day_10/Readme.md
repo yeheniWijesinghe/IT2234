@@ -18,7 +18,7 @@ Create Database -> Database Name -> Collection Name -> Create Database
 
 !['1.createDB.png'](./Images/1.createDB.png)
 
-Insert Document -> insert keys and values
+Insert Document -> insert keys and values 
 
 !['2.insert.png'](./Images/2.insert.png)
 
