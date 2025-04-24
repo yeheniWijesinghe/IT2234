@@ -18,6 +18,8 @@ Create Database -> Database Name -> Collection Name -> Create Database
 
 !['1.createDB.png'](./Images/1.createDB.png)
 
+## ✍️ Insert Documents Using Compass
+
 Insert Document -> insert keys and values. 
 
 !['2.insert.png'](./Images/2.insert.png)
@@ -29,6 +31,11 @@ Use format button to make the document permitted.
 Inserted Document
 
 !['5.png'](./Images/5.png)
+
+## ✍️ Insert Documents Using MongoDb Shell
+
+
+
 
 
 
