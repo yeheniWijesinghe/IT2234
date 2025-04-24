@@ -64,7 +64,7 @@ Enter one document - insertOne()
 
 !['7.insertOne.png'](./Images/7.insertOne.png)
 
-Inserted Document
+Inserted Documents.
 
 !['8.png'](./Images/9.png)
 
@@ -104,7 +104,7 @@ Enter multiple documents - insertMany()
 
 ~~~
 
-Shell response
+Shell response.
 ~~~
   {
   acknowledged: true,
@@ -115,7 +115,7 @@ Shell response
 }
 ~~~
 
-Inserted Document
+Inserted Documents.
 
 !['9.png'](./Images/9.png)
 
