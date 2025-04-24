@@ -5,13 +5,14 @@
 
 Key Terms.
 
-🏢 Database → Holds collections
+  Database → Holds collections
 
-📁 Collection → Like a table (stores documents)
+  Collection → Like a table (stores documents)
 
-📄 Document → JSON-style object
+  Document → JSON-style object
 
-🄚 _id →  Auto-generated, unique identifier
+  🄚 _id →  Auto-generated, unique identifier
 
 
+🏗️ Create a Database & Collection
 
