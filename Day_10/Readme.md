@@ -1,6 +1,6 @@
 ## 🍃 MongoDB Hands-On
 
-📦 DB Creation | 📁 Collections | 🛠️ CRUD | 🔍 Queries
+ DB Creation | Collections |  CRUD |  Queries
 
 ## Key Terms.
 
