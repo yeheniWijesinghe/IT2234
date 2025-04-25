@@ -116,6 +116,11 @@ Edit -> Make changes -> Update
 
 !['9.png'](./Images/9.png)
 
+## ✍️ Update Documents Using MongoDB Shell
+ Update one document - updateOne()
+
+!['10.updateOne.png'](./Images/10.updateOne.png)
+!['10.png'](./Images/10.png)
 
 
 
