@@ -361,7 +361,6 @@ Compass.
 !['15.lt.png'](./Images/15.lt.png)
 
 MongoDB Shell.
-MongoDB Shell.
 ```
 db.students.find({ "age": { "$lt": 22 } })
 ```
@@ -392,6 +391,9 @@ Compass.
 !['16.eq.png'](./Images/16.eq.png)
 
 MongoDB Shell.
+```
+
+```
 
 ## ❌ Not Equal -> $ne
 
@@ -400,6 +402,80 @@ Compass.
 !['17.ne.png'](./Images/17.ne.png)
 
 MongoDB Shell.
+```
+db.students.find({ "age": { "$ne": 24 } })
+```
+
+Shell response.
+```
+{
+  _id: ObjectId('680a15b32064950d6983323b'),
+  regno: '2021IT001',
+  name: 'Kolins',
+  age: 25,
+  degree: 'IT',
+  skills: [
+    'MongoDb',
+    'JS',
+    'Nodejs'
+  ],
+  gender: 'Male'
+}
+{
+  _id: ObjectId('680a45ccbbeaa62de141d812'),
+  regno: '2021IT002',
+  name: 'Jane',
+  age: 23,
+  gender: 'Female',
+  degree: 'CS',
+  skills: [
+    'Mysql',
+    'JS',
+    'Nodejs'
+  ]
+}
+{
+  _id: ObjectId('680a4605bbeaa62de141d813'),
+  regno: '2021IT003',
+  name: 'Ken',
+  age: 21,
+  gender: 'Female',
+  degree: 'CS',
+  skills: [
+    'Mysql',
+    'JS',
+    'Nodejs',
+    'Java'
+  ]
+}
+{
+  _id: ObjectId('680a4679bbeaa62de141d815'),
+  regno: '2021IT005',
+  name: 'Heily',
+  age: 23,
+  gender: 'Female',
+  degree: 'IT',
+  skills: [
+    'MongoDb',
+    'JS',
+    'Java',
+    'Nodejs'
+  ]
+}
+{
+  _id: ObjectId('680a513770bc7e6dddbd41d4'),
+  regno: '2021IT007',
+  name: 'Kevin',
+  age: 25,
+  gender: 'Male',
+  degree: 'IT',
+  skills: [
+    'JS',
+    'MongoDb',
+    'MySQL'
+  ]
+}
+```
 
 ## 📥 Matches any in array -> $in
 
