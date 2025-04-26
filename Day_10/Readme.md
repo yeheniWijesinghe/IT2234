@@ -119,9 +119,11 @@ Inserted Documents.
 ## 🛠️ Update Documents Using MongoDB Shell
 
 Update one document - updateOne()
+
 !['10.updateOne.png'](./Images/10.updateOne.png)
 
 Inserted Documents.
+
 !['10.png'](./Images/10.png)
 
 Update document - updateMany()
@@ -129,6 +131,7 @@ Update document - updateMany()
 !['11.updateMany.png'](./Images/11.updateMany.png)
 
 Inserted Documents.
+
 !['11.png'](./Images/11.png)
 
 
