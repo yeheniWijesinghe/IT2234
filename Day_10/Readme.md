@@ -120,6 +120,8 @@ Edit -> Make changes -> Update
  Update one document - updateOne()
 
 !['10.updateOne.png'](./Images/10.updateOne.png)
+
+Inserted Documents.
 !['10.png'](./Images/10.png)
 
 
