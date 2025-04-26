@@ -320,6 +320,39 @@ Compass.
 !['14.gt.png'](./Images/14.gt.png)
 
 MongoDB Shell.
+```
+db.students.find({ "age": { "$gt": 24 } })
+```
+
+Shell response
+```
+{
+  _id: ObjectId('680a15b32064950d6983323b'),
+  regno: '2021IT001',
+  name: 'Kolins',
+  age: 25,
+  degree: 'IT',
+  skills: [
+    'MongoDb',
+    'JS',
+    'Nodejs'
+  ],
+  gender: 'Male'
+}
+{
+  _id: ObjectId('680a513770bc7e6dddbd41d4'),
+  regno: '2021IT007',
+  name: 'Kevin',
+  age: 25,
+  gender: 'Male',
+  degree: 'IT',
+  skills: [
+    'JS',
+    'MongoDb',
+    'MySQL'
+  ]
+}
+```
 
 ## 🔽 Less Than -> $lt
 
