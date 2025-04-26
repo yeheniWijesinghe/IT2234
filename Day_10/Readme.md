@@ -142,16 +142,16 @@ Updated Documents.
  db.students.deleteMany({ degree: "IT" })
 ~~~
 ## 🧠 Query Operators
- • find() \n
- • project
- • sort
- • $gt -> greater than
- • $lt -> less than
- • $eq -> equal
- • $ne -> not equal
- • $in -> matches any in array
- • $nin -> doesn't matches any in array
- • $and / $or -> logical conditions
+ * find() 
+ * project
+ * sort
+ * $gt -> greater than
+ * $lt -> less than
+ * $eq -> equal
+ * $ne -> not equal
+ * $in -> matches any in array
+ * $nin -> doesn't matches any in array
+ * $and / $or -> logical conditions
 
 ## 🔍 Find Data Using Compass
 
