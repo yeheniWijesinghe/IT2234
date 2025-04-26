@@ -319,11 +319,15 @@ Compass.
 
 !['14.gt.png'](./Images/14.gt.png)
 
+MongoDB Shell.
+
 ## 🔽 Less Than -> $lt
 
 Compass.
 
 !['15.lt.png'](./Images/15.lt.png)
+
+MongoDB Shell.
 
 ## 🟰 Equal -> $eq
 
@@ -331,11 +335,15 @@ Compass.
 
 !['16.eq.png'](./Images/16.eq.png)
 
-Compass.
+MongoDB Shell.
 
 ## ❌ Not Equal -> $ne
 
+Compass.
+
 !['17.ne.png'](./Images/17.ne.png)
+
+MongoDB Shell.
 
 ## 📥 Matches any in array -> $in
 
@@ -343,12 +351,15 @@ Compass.
 
 !['18.in.png'](./Images/18.in.png)
 
+MongoDB Shell.
+
 ## 🚫📥 Doesn't matches any in array -> $nin
 
 Compass.
 
 !['19.nin.png'](./Images/19.nin.png)
 
+MongoDB Shell.
 
 
 
