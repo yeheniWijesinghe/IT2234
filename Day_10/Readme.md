@@ -269,7 +269,7 @@ db.students.find({"degree":"IT","gender":"Male"}).sort({"age":1})
 
 ```
 
-Shell response
+Shell response.
 
 ```
 {
@@ -324,7 +324,7 @@ MongoDB Shell.
 db.students.find({ "age": { "$gt": 24 } })
 ```
 
-Shell response
+Shell response.
 ```
 {
   _id: ObjectId('680a15b32064950d6983323b'),
@@ -361,6 +361,29 @@ Compass.
 !['15.lt.png'](./Images/15.lt.png)
 
 MongoDB Shell.
+MongoDB Shell.
+```
+db.students.find({ "age": { "$lt": 22 } })
+```
+
+Shell response.
+```
+{
+  _id: ObjectId('680a4605bbeaa62de141d813'),
+  regno: '2021IT003',
+  name: 'Ken',
+  age: 21,
+  gender: 'Female',
+  degree: 'CS',
+  skills: [
+    'Mysql',
+    'JS',
+    'Nodejs',
+    'Java'
+  ]
+}
+```
+
 
 ## 🟰 Equal -> $eq
 
