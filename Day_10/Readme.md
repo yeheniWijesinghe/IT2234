@@ -392,7 +392,25 @@ Compass.
 
 MongoDB Shell.
 ```
+db.students.find({ "age": { "$eq": 21 } })
+```
 
+Shell response.
+```
+{
+  _id: ObjectId('680a4605bbeaa62de141d813'),
+  regno: '2021IT003',
+  name: 'Ken',
+  age: 21,
+  gender: 'Female',
+  degree: 'CS',
+  skills: [
+    'Mysql',
+    'JS',
+    'Nodejs',
+    'Java'
+  ]
+}
 ```
 
 ## ❌ Not Equal -> $ne
