@@ -156,6 +156,69 @@ Updated Documents.
 
 !['12.find.png'](./Images/12.find.png)
 
+## 🔍 Find Data Using MongoDB Shell
+```
+db.students.find({"gender":"Female"})
+```
+
+Shell response.
+```
+{
+  _id: ObjectId('680a45ccbbeaa62de141d812'),
+  regno: '2021IT002',
+  name: 'Jane',
+  age: 23,
+  gender: 'Female',
+  degree: 'CS',
+  skills: [
+    'Mysql',
+    'JS',
+    'Nodejs'
+  ]
+}
+{
+  _id: ObjectId('680a4605bbeaa62de141d813'),
+  regno: '2021IT003',
+  name: 'Ken',
+  age: 21,
+  gender: 'Female',
+  degree: 'CS',
+  skills: [
+    'Mysql',
+    'JS',
+    'Nodejs',
+    'Java'
+  ]
+}
+{
+  _id: ObjectId('680a463abbeaa62de141d814'),
+  regno: '2021IT004',
+  name: 'Anne',
+  age: 24,
+  gender: 'Female',
+  degree: 'IT',
+  skills: [
+    'MongoDb',
+    'JS',
+    'Nodejs'
+  ]
+}
+{
+  _id: ObjectId('680a4679bbeaa62de141d815'),
+  regno: '2021IT005',
+  name: 'Heily',
+  age: 23,
+  gender: 'Female',
+  degree: 'IT',
+  skills: [
+    'MongoDb',
+    'JS',
+    'Java',
+    'Nodejs'
+  ]
+}
+```
+
 ## 💡 Projecting Data Using Compass
 
 !['12.selectedField.png'](./Images/12.selectedField.png)
