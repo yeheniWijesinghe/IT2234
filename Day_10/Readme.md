@@ -122,7 +122,7 @@ Update one document - updateOne()
 
 !['10.updateOne.png'](./Images/10.updateOne.png)
 
-Inserted Documents.
+Updated Documents.
 
 !['10.png'](./Images/10.png)
 
@@ -130,7 +130,7 @@ Update document - updateMany()
 
 !['11.updateMany.png'](./Images/11.updateMany.png)
 
-Inserted Documents.
+Updated Documents.
 
 !['11.png'](./Images/11.png)
 
@@ -141,6 +141,26 @@ Inserted Documents.
 
  db.students.deleteMany({ degree: "IT" })
 ~~~
+## 🧠 Query Operators
+ • find()
+ • project
+ • sort
+ • $gt -> greater than
+ • $lt -> less than
+ • $eq -> equal
+ • $ne -> not equal
+ • $in -> matches any in array
+ • $nin -> doesn't matches any in array
+ • $and / $or -> logical conditions
+
+## 🔍 Find Data Using Compass
+
+!['12.find.png'](./Images/12.find.png)
+
+## 💡 Projection Data Using Compass
+
+!['12.selectedField.png'](./Images/12.selectedField.png)
+
 
 
 
