@@ -262,6 +262,57 @@ Shell response
 
 !['13.sort.png'](./Images/13.sort.png)
 
+## 🔃 Sorting Data Using MongoDB Shell
+
+```
+db.students.find({"degree":"IT","gender":"Male"}).sort({"age":1})
+
+```
+
+Shell response
+
+```
+{
+  _id: ObjectId('680a4f7a70bc7e6dddbd41d3'),
+  regno: '2021IT006',
+  name: 'Nova',
+  age: 24,
+  gender: 'Male',
+  degree: 'IT',
+  skills: [
+    'JS',
+    'MongoDb',
+    'Nodejs'
+  ]
+}
+{
+  _id: ObjectId('680a15b32064950d6983323b'),
+  regno: '2021IT001',
+  name: 'Kolins',
+  age: 25,
+  degree: 'IT',
+  skills: [
+    'MongoDb',
+    'JS',
+    'Nodejs'
+  ],
+  gender: 'Male'
+}
+{
+  _id: ObjectId('680a15b32064950d6983323b'),
+  regno: '2021IT001',
+  name: 'Kolins',
+  age: 25,
+  degree: 'IT',
+  skills: [
+    'MongoDb',
+    'JS',
+    'Nodejs'
+  ],
+  gender: 'Male'
+}
+```
+
 ## 🔼 Greater Than -> $gt
 
 !['14.gt.png'](./Images/14.gt.png)
