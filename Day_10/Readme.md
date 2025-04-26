@@ -182,9 +182,11 @@ Updated Documents.
 
 ## 📥 Matches any in array -> $in
 
+!['18.in.png'](./Images/18.in.png)
 
 ## 🚫📥 Doesn't matches any in array -> $nin
 
+!['19.nin.png'](./Images/19.nin.png)
 
 
 
