@@ -315,15 +315,23 @@ Shell response
 
 ## 🔼 Greater Than -> $gt
 
+Compass.
+
 !['14.gt.png'](./Images/14.gt.png)
 
 ## 🔽 Less Than -> $lt
+
+Compass.
 
 !['15.lt.png'](./Images/15.lt.png)
 
 ## 🟰 Equal -> $eq
 
+Compass.
+
 !['16.eq.png'](./Images/16.eq.png)
+
+Compass.
 
 ## ❌ Not Equal -> $ne
 
@@ -331,9 +339,13 @@ Shell response
 
 ## 📥 Matches any in array -> $in
 
+Compass.
+
 !['18.in.png'](./Images/18.in.png)
 
 ## 🚫📥 Doesn't matches any in array -> $nin
+
+Compass.
 
 !['19.nin.png'](./Images/19.nin.png)
 
