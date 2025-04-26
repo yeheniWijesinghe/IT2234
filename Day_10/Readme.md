@@ -153,13 +153,15 @@ Updated Documents.
  * $nin -> doesn't matches any in array
  * $and / $or -> logical conditions
 
-## 🔍 Find Data Using Compass
+** 🔍 Find Data Using Compass **
 
 !['12.find.png'](./Images/12.find.png)
 
-## 💡 Projecting Data Using Compass
+** 💡 Projecting Data Using Compass **
 
 !['12.selectedField.png'](./Images/12.selectedField.png)
+
+
 
 
 
