@@ -502,6 +502,41 @@ Compass.
 !['18.in.png'](./Images/18.in.png)
 
 MongoDB Shell.
+```
+db.students.find({ "skills": { "$in": ["Java"] } })
+```
+
+Shell response
+```
+{
+  _id: ObjectId('680a4605bbeaa62de141d813'),
+  regno: '2021IT003',
+  name: 'Ken',
+  age: 21,
+  gender: 'Female',
+  degree: 'CS',
+  skills: [
+    'Mysql',
+    'JS',
+    'Nodejs',
+    'Java'
+  ]
+}
+{
+  _id: ObjectId('680a4679bbeaa62de141d815'),
+  regno: '2021IT005',
+  name: 'Heily',
+  age: 23,
+  gender: 'Female',
+  degree: 'IT',
+  skills: [
+    'MongoDb',
+    'JS',
+    'Java',
+    'Nodejs'
+  ]
+}
+```
 
 ## 🚫📥 Doesn't matches any in array -> $nin
 
@@ -510,6 +545,40 @@ Compass.
 !['19.nin.png'](./Images/19.nin.png)
 
 MongoDB Shell.
+```
+db.students.find({ "skills": { "$nin": ["MongoDb"] } })
+```
+
+Shell response
+```
+{
+  _id: ObjectId('680a45ccbbeaa62de141d812'),
+  regno: '2021IT002',
+  name: 'Jane',
+  age: 23,
+  gender: 'Female',
+  degree: 'CS',
+  skills: [
+    'Mysql',
+    'JS',
+    'Nodejs'
+  ]
+}
+{
+  _id: ObjectId('680a45ccbbeaa62de141d812'),
+  regno: '2021IT002',
+  name: 'Jane',
+  age: 23,
+  gender: 'Female',
+  degree: 'CS',
+  skills: [
+    'Mysql',
+    'JS',
+    'Nodejs'
+  ]
+}
+```
+
 
 
 
