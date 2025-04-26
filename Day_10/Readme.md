@@ -151,15 +151,39 @@ Updated Documents.
  * $ne -> not equal
  * $in -> matches any in array
  * $nin -> doesn't matches any in array
- * $and / $or -> logical conditions
 
-** 🔍 Find Data Using Compass **
+## 🔍 Find Data Using Compass
 
 !['12.find.png'](./Images/12.find.png)
 
-** 💡 Projecting Data Using Compass **
+## 💡 Projecting Data Using Compass
 
 !['12.selectedField.png'](./Images/12.selectedField.png)
+
+## 🔃 Sorting Data Using Compass
+
+!['13.sort.png'](./Images/13.sort.png)
+
+## 🔼 Greater Than -> $gt
+
+!['14.gt.png'](./Images/14.gt.png)
+
+## 🔽 Less Than -> $lt
+
+!['15.lt.png'](./Images/15.lt.png)
+
+## 🟰 Equal -> $eq
+
+!['16.eq.png'](./Images/16.eq.png)
+
+## ❌ Not Equal -> $ne
+
+!['17.ne.png'](./Images/17.ne.png)
+
+## 📥 Matches any in array -> $in
+
+
+## 🚫📥 Doesn't matches any in array -> $nin
 
 
 
