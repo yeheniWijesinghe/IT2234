@@ -217,6 +217,41 @@ Shell response.
     'Nodejs'
   ]
 }
+{
+  _id: ObjectId('680a513770bc7e6dddbd41d5'),
+  regno: '2021IT008',
+  name: 'Kate',
+  age: 24,
+  gender: 'Female',
+  degree: 'IT',
+  skills: [
+    'JS',
+    'MongoDb',
+    'Nodejs'
+  ]
+}
+```
+
+Find the first result.
+```
+db.students.findOne({"gender":"Female"})
+```
+
+Shell response
+```
+{
+  _id: ObjectId('680a45ccbbeaa62de141d812'),
+  regno: '2021IT002',
+  name: 'Jane',
+  age: 23,
+  gender: 'Female',
+  degree: 'CS',
+  skills: [
+    'Mysql',
+    'JS',
+    'Nodejs'
+  ]
+}
 ```
 
 ## 💡 Projecting Data Using Compass
