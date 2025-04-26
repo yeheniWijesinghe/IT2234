@@ -142,7 +142,7 @@ Updated Documents.
  db.students.deleteMany({ degree: "IT" })
 ~~~
 ## 🧠 Query Operators
- • find()
+ • find() \n
  • project
  • sort
  • $gt -> greater than
@@ -157,7 +157,7 @@ Updated Documents.
 
 !['12.find.png'](./Images/12.find.png)
 
-## 💡 Projection Data Using Compass
+## 💡 Projecting Data Using Compass
 
 !['12.selectedField.png'](./Images/12.selectedField.png)
 
