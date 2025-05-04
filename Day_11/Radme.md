@@ -8,23 +8,28 @@
 
 ## 🧹 Delete Documents Using MongoDB Shell
 
-!['1.deleteByshell.png'](./Images/1.deleteByshell.png)
+!['3.data.png'](./Images/3.data.png)
+
+Delete one document - deleteOne()
+
+!['4.deleteOne.png'](./Images/4.deleteOne.png)
+
+Shell response.
+
+!['5.png'](./Images/5.png)
+
+Delete Documents - deleteMany()
+
+!['6.deleteMany.png'](./Images/6.deleteMany.png)
 
 ## 🛠️ Update Documents Using MongoDB Shell
 
 Update one document - updateOne()
 
-!['10.updateOne.png'](./Images/10.updateOne.png)
-
-Updated Documents.
-
-!['10.png'](./Images/10.png)
+!['7.updateOne.png'](./Images/7.updateOne.png)
 
 Update document - updateMany()
 
-!['11.updateMany.png'](./Images/11.updateMany.png)
+!['8.updateMany.png'](./Images/8.updateMany.png)
 
-Updated Documents.
-
-!['11.png'](./Images/11.png)
 
