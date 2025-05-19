@@ -21,7 +21,8 @@ router.post('/',async(req,res)=>{
 })
 ```
 
-![3.png](./Outputs/3.png)
+![1.png](./Outputs/1.png)
+![2.png](./Outputs/2.png)
 
 * Update
   
@@ -47,6 +48,8 @@ router.put('/:id',async(req,res)=>{
 })
 ```
 
+![3.png](./Outputs/3.png)
+
 * Delete
 
 ```
@@ -67,3 +70,5 @@ router.delete('/:id',async(req,res)=>{
     }
 })
 ```
+![4.png](./Outputs/4.png)
+
