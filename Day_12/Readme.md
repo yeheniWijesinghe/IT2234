@@ -21,6 +21,8 @@ router.post('/',async(req,res)=>{
 })
 ```
 
+![3.png](./Outputs/3.png)
+
 * Update
   
 ```
